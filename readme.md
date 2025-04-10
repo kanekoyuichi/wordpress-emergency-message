@@ -38,7 +38,7 @@
 このプラグインは [MIT License](LICENSE) のもとで公開されています。
 
 ## 貢献
-バグ報告や機能リクエストは、GitHubの[Issues](https://github.com/your-repo/emergency-message/issues)セクションで受け付けています。
+バグ報告や機能リクエストは、GitHubの[Issues](https://github.com/kanekoyuichi/wordpress-emergency-message/issues)セクションで受け付けています。
 
 ## 作者
 - **名前**: Yuichi Kaneko
