@@ -140,7 +140,7 @@ add_action('wp_head', function () {
 
         echo '
         <style>
-            .emergency-banner {
+            .emergency-message {
                 background: #FFF;
                 color: ' . $color . ';
                 padding: 10px;
@@ -149,7 +149,7 @@ add_action('wp_head', function () {
                 position: relative;
                 z-index: 9999;
             }
-            .emergency-banner a {
+            .emergency-message a {
                 text-decoration: ' . $underline . ';
                 color: ' . $color . ';
             }
@@ -159,7 +159,7 @@ add_action('wp_head', function () {
                 const header = document.querySelector("header");
                 if (header) {
                     const banner = document.createElement("div");
-                    banner.className = "emergency-banner";
+                    banner.className = "emergency-message";
                     banner.innerHTML = ' . json_encode($link ? "<a href=\"$link\">$message</a>" : $message) . ';
                     header.insertAdjacentElement("afterend", banner);
                 }
