@@ -29,18 +29,3 @@
 ## スクリーンショット
 ### 設定画面
 ![設定画面](screenshot.png)
-
-## 開発者向け情報
-### フック一覧
-- **`wp_head`**: メッセージをフロントエンドに挿入するために使用。
-- **`admin_init`**: 設定項目を登録。
-
-## ライセンス
-このプラグインは [MIT License](LICENSE) のもとで公開されています。
-
-## 貢献
-バグ報告や機能リクエストは、GitHubの[Issues](https://github.com/kanekoyuichi/wordpress-emergency-message/issues)セクションで受け付けています。
-
-## 作者
-- **名前**: Yuichi Kaneko
-- **GitHub**: [https://github.com/kanekoyuichi/](https://github.com/kanekoyuichi/)
